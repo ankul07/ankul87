@@ -1,0 +1,91 @@
+
+{{>header}}
+<body>
+    <!-- background circle start -->
+
+     {{>circleandoverlay}}
+
+
+    <div class="main">
+        <!-- header start -->
+                 {{>navbar}}  
+            
+        <!-- header end -->
+
+
+        <section class="home-section align-item-center active"id="home">
+            <div class="container">
+                <div class="row align-item-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>ankur agarwal</h1>
+                        <h2>front end developer</h2>
+                        <a href="#about" class="btn link-item">more about me</a>
+                        <a href="#portfolio" class="btn link-item">portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="img/img-removebg.png" alt="pic-images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section  -->
+
+       {{>about}}
+        <!-- portfolio section started is here -->
+       
+        {{>portfolio}}
+        <!-- ------------------------------------
+        --------------contact section started here--------
+    ------------------------------------------------------ -->
+            
+
+
+        {{>contact}}
+
+
+
+        <!-- ---------------------------------------------------
+    --------------------contact section end here -->
+
+    </div>
+
+    <!-- ------------------------------------------
+    start here------------------------------------- -->
+
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="img/public/img/background2.png" alt="background-pic">
+                    </div>
+
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+   
+
+
+
+    <!-- ------------------------------------
+    -----------------end here-------------------------
+-------------------------------------------------- -->
+    <script src="js/second.js"></script>
+</body>
+
+</html>
